@@ -38,10 +38,29 @@ let arreglo = {
 }
 
 let convertToText = JSON.stringify(arreglo);
-console.log(convertToText);
+// console.log(convertToText);
 
 let ConvertToJson = JSON.parse(convertToText);
-console.log(ConvertToJson);
+// console.log(ConvertToJson);
 
 
 // Ejercicio 2
+const USA = {
+    "title": "United States",
+    "cities": [
+        "New York",
+        "California",
+        "Pennsylvania"
+    ],
+    "anotherCities": [
+        "Miami",
+        "Ohio",
+        "Texas"
+    ]
+}
+
+let convertText = JSON.stringify(USA);
+console.log(convertText);
+
+let convertJson = JSON.parse(convertText);
+console.log(convertJson);
